@@ -9,14 +9,14 @@
           <div>
             <h2>Para decano vota por el N°1</h2>
             <div class="square">
-              <div class="marca">x</div>
+              <div class="marca"><img width="100px" src="./x-512.png" alt=""></div>
               <div class="numero">
                 <h3 class="n1">1</h3>
               </div>
             </div>
             <h2>Para asociados vota por el N°2</h2>
             <div class="square">
-              <div class="marca">x</div>
+              <div class="marca"><img width="100px" src="./x-512.png" alt=""></div>
               <div class="numero">
                 <h3 class="n1">2</h3>
               </div>
@@ -51,13 +51,10 @@ import "@/assets/styles/main.scss";
 
 export default {
   name: "Home",
-  // components: {
-  //   HelloWorld
-  // }
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .home {
   height: 100vh;
   background-image: url("FISI-background.jpg");
@@ -111,7 +108,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
+  // font-size: 50px;
   position: relative;
 }
 
@@ -120,9 +117,10 @@ export default {
   .n1 {
     color: #000;
     position: absolute;
-    top: -23px;
+    top: -30px;
     right: -13px;
     z-index: 1;
+    font-size: 60px;
   }
 }
 
@@ -137,8 +135,4 @@ h2 {
   top: 5px;
   color: red;
 }
-
-// .square:after {
-//   content: "\274c";
-// }
 </style>
