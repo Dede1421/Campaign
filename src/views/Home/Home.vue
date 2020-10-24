@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <section class="description-media">
+    <!-- <section class="description-media">
       <div class="video">
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt,
@@ -42,7 +42,7 @@
           possimus accusantium assumenda laudantium.
         </p>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
