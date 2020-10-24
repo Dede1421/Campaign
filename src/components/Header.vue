@@ -4,6 +4,7 @@
       <router-link to="/"
         ><img class="img-title" :src="imageURL" alt="Logo" /><span
           class="logo-name"
+          v-bind:class="[isHome ? 'logoNameBlanco' : '']"
           >Avanza FISI</span
         ></router-link
       >
@@ -45,6 +46,11 @@ a {
   font-size: 20px;
   font-weight: bold;
   color: #1a378e;
+  margin-left: 16px;
+}
+
+.logoNameBlanco {
+  color: #fff;
 }
 
 .headerFloat {
