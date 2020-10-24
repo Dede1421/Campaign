@@ -68,7 +68,7 @@ export default {
 }
 
 .banner {
-  height: 120%;
+  height: 117%;
   padding: 0px 20px;
   display: flex;
   justify-content: space-between;
