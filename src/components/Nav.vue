@@ -2,7 +2,7 @@
   <nav class="nav">
     <ul>
       <li>
-        <router-link to="/candidatos">Candidatos/Equipo</router-link>
+        <router-link to="/candidatos">Candidatos</router-link>
       </li>
       <li>
         <router-link to="/equipo">Equipo</router-link>
