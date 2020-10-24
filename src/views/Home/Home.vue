@@ -4,7 +4,7 @@
       <div class="bg-container">
         <div class="banner">
           <div class="content">
-            <h1>Avanzemos juntos</h1>
+            <h1>Avancemos juntos</h1>
           </div>
           <div>
             <h2>Para decano vota por el N°1</h2>
@@ -63,7 +63,7 @@ export default {
 }
 
 .bg-container {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.3);
   height: 100%;
 }
 

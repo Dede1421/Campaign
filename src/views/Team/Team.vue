@@ -2,17 +2,18 @@
   <div class="container-team">
     <h1>Equipo Avanza FISI</h1>
     <p>David Mauricio</p>
-    <p>Erwin Macdowell</p>
+    <p>Erwin Mac Dowall</p>
     <p>Igor Alonso</p>
     <p>Jorge Pantoja</p>
     <p>Jaime Pariona</p>
-    <p>Judy Guzmán</p>
+    <p>Yudy Guzmán</p>
     <p>Gustavo Arredondo</p>
     <p>Hugo Vega</p>
     <p>Rosa Delgadillo</p>
     <p>Segio Valcárcel</p>
     <p>Lenis Wong</p>
     <p>Hugo Calderon</p>
+    <p>Daniel Quinto</p>
   </div>
 </template>
 
