@@ -301,12 +301,13 @@ export default {
 }
 
 .proposal {
-  height: 220px;
+  height: 260px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #1a378e;
+
   h2 {
     font-size: 2rem;
     padding: 5px 0;
@@ -320,7 +321,7 @@ export default {
 
   li {
     padding: 5px 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 18px;
     color: #fff;
     font-weight: bold;
@@ -354,6 +355,27 @@ export default {
 
   li {
     color: #1a378e;
+  }
+}
+
+//media queries@
+@media (max-width: 984px) {
+  .proposal {
+    h2 {
+      font-size: 1.7rem;
+    }
+
+    li {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .container-plan {
+    .proposals-grid {
+      display: block;
+    }
   }
 }
 </style>

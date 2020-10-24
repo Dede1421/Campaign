@@ -71,6 +71,7 @@ export default {
   height: 120%;
   padding: 0px 20px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -134,5 +135,13 @@ h2 {
   position: absolute;
   top: 5px;
   color: red;
+}
+
+@media (max-width: 750px) {
+  .content {
+    h1 {
+      font-size: 2rem;
+    }
+  }
 }
 </style>

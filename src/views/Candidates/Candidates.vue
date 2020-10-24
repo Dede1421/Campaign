@@ -17,12 +17,13 @@
           Investigador RENACYT - Monge II. Decano de la FISI (2006-2007),
           (Enero-Junio 2016), Director de Posgrado (2001-2003), Responsable y
           autor del proyecto de creación de la FISI.
+          <a href="" class="see">Ver mas</a>
         </p>
       </div>
     </div>
     <div class="candidate">
       <div class="img-candidate">
-        <img src="./jorge2012.jpg" alt="David" />
+        <img src="./jorge2012.jpg" alt="Jorge" />
       </div>
       <div class="description-candidate">
         <h2 class="vote voteWidth2">Para Asociado marca el N°2</h2>
@@ -36,13 +37,13 @@
           y 2018. Miembro del GI de internet de las cosas. Evaluador de
           proyectos para CONCYTEC e INNOVATE PERU. Evaluador de papers de
           journal para MDPI. Investigador RENACYT por UNMSM, Maria Rostworowski
-          II.
+          II. <a href="" class="see">Ver mas</a>
         </p>
       </div>
     </div>
     <div class="candidate">
       <div class="img-candidate">
-        <img src="./candidato3.jpg" alt="David" />
+        <img src="./candidato3.jpg" alt="Jaime" />
       </div>
       <div class="description-candidate">
         <h2 class="vote voteWidth2">Para Asociado marca el N°2</h2>
@@ -55,7 +56,7 @@
           Lenguajes, Sistemas Embebidos y Agentes de Software Inteligentes. Ha
           publicado artículos de Informática Médica en eventos internacionals
           como PAHCE 2010 y PAHCE 2014 (Pan American Health Care Exchanges) y en
-          revistas nacionales.
+          revistas nacionales. <a href="" class="see">Ver mas</a>
         </p>
       </div>
     </div>
@@ -80,17 +81,16 @@ export default {};
 
   .candidate {
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 
     .description-candidate {
       padding-left: 20px;
-      max-width: 700px;
+      max-width: 720px;
       width: 100%;
 
       p {
         font-style: italic;
         line-height: 1.5;
-        letter-spacing: 0.04;
         letter-spacing: 0.04em;
         font-size: 14px;
         color: rgba(0, 0, 0, 0.6);
@@ -128,5 +128,45 @@ h2 {
 
 .voteWidth2 {
   width: 45%;
+}
+
+//media queries@
+@media (max-width: 984px) {
+  .img-candidate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .vote {
+    font-size: 1.1rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .container-candidates {
+    .candidate {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .description-candidate {
+        padding-left: 0px;
+      }
+    }
+
+    .voteWidth {
+      width: 100%;
+      margin: 10px 0px;
+    }
+
+    .voteWidth2 {
+      width: 100%;
+      margin: 10px 0px;
+    }
+  }
 }
 </style>

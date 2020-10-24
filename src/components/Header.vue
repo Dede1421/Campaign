@@ -1,7 +1,7 @@
 <template>
   <header :class="[isHome ? 'headerFloat' : 'headerBorder']">
     <div class="header">
-      <router-link to="/"
+      <router-link to="/" class="link"
         ><img class="img-title" :src="imageURL" alt="Logo" /><span
           class="logo-name"
           v-bind:class="[isHome ? 'logoNameBlanco' : '']"
@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style lang="scss" >
-a {
+.link {
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -78,6 +78,20 @@ a {
 
   img {
     width: 70px;
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    padding: 20px;
+  }
+  .logo-name {
+    font-size: 1rem;
+    width: 50%;
+  }
+
+  .img-title {
+    width: 60px;
   }
 }
 </style>

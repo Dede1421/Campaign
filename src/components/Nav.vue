@@ -35,4 +35,12 @@ export default {
     text-decoration: none;
   }
 }
+
+@media (max-width: 750px) {
+  .nav {
+    a {
+      font-size: 1rem;
+    }
+  }
+}
 </style>
