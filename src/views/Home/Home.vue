@@ -16,7 +16,7 @@
                 <h3 class="n1">1</h3>
               </div>
             </div>
-            <h2>Para asociados vota por el N°2</h2>
+            <!-- <h2>Para asociados vota por el N°2</h2>
             <div class="square">
               <div class="marca">
                 <img width="100px" src="./x-512.png" alt="" />
@@ -24,7 +24,7 @@
               <div class="numero">
                 <h3 class="n1">2</h3>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
