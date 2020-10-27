@@ -1,19 +1,23 @@
 <template>
   <div class="container-team">
     <h1>Equipo Avanza FISI</h1>
-    <p>David Mauricio</p>
-    <p>Erwin Mac Dowall</p>
-    <p>Igor Alonso</p>
-    <p>Jorge Pantoja</p>
-    <p>Jaime Pariona</p>
-    <p>Yudy Guzmán</p>
-    <p>Gustavo Arredondo</p>
-    <p>Hugo Vega</p>
-    <p>Rosa Delgadillo</p>
-    <p>Segio Valcárcel</p>
-    <p>Lenis Wong</p>
-    <p>Hugo Calderon</p>
-    <p>Daniel Quinto</p>
+    <p>David Santos Mauricio Sanchez</p>
+    <p>Erwin Reynoso Mac Dowall</p>
+    <p>Igor Jovino Aguilar Alonso</p>
+    <p>Jorge Santiago Pantoja Collantes</p>
+    <p>Jaime Ruben Pariona Quispe</p>
+    <p>Yudi Lucero Guzmán Monteza</p>
+    <p>Gustavo Arredondo Castillo</p>
+    <p>Hugo Froilan Vega Huerta</p>
+    <p>Rosa Sumacticka Delgadillo Ávila de Mauricio</p>
+    <p>Segio Paulo Valcárcel Ascencios</p>
+    <p>Lenis Rossi Wong Portillo</p>
+    <p>Hugo David Calderon Vilca</p>
+    <p>Daniel Alfonso Quinto Pazce</p>
+    <p>Javier Elmer Cabrera Díaz</p>
+    <p>Ana María Huayna Dueñas</p>
+    <p>Percy Edwin De la Cruz</p>
+
   </div>
 </template>
 
