@@ -9,14 +9,18 @@
           <div>
             <h2>Para decano vota por el N°1</h2>
             <div class="square">
-              <div class="marca"><img width="100px" src="./x-512.png" alt=""></div>
+              <div class="marca">
+                <img width="100px" src="./x-512.png" alt="" />
+              </div>
               <div class="numero">
                 <h3 class="n1">1</h3>
               </div>
             </div>
             <h2>Para asociados vota por el N°2</h2>
             <div class="square">
-              <div class="marca"><img width="100px" src="./x-512.png" alt=""></div>
+              <div class="marca">
+                <img width="100px" src="./x-512.png" alt="" />
+              </div>
               <div class="numero">
                 <h3 class="n1">2</h3>
               </div>
@@ -137,10 +141,33 @@ h2 {
   color: red;
 }
 
+@media (max-width: 770px) {
+  .banner {
+    height: 114%;
+  }
+}
+
 @media (max-width: 750px) {
   .content {
     h1 {
       font-size: 2rem;
+    }
+  }
+
+  .square {
+    height: 70px;
+    width: 70%;
+
+    img {
+      width: 70px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .content {
+    h1 {
+      font-size: 1.6rem;
     }
   }
 }

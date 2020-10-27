@@ -84,14 +84,20 @@ export default {
 @media (max-width: 750px) {
   .header {
     padding: 20px;
+
+    .img-title {
+      width: 60px;
+    }
   }
   .logo-name {
     font-size: 1rem;
     width: 50%;
   }
+}
 
-  .img-title {
-    width: 60px;
+@media (max-width: 450px) {
+  .logo-name {
+    font-size: 14px;
   }
 }
 </style>

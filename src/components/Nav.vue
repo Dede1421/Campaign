@@ -43,4 +43,12 @@ export default {
     }
   }
 }
+
+@media (max-width: 450px) {
+  .nav {
+    a {
+      font-size: 14px;
+    }
+  }
+}
 </style>
