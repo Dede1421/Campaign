@@ -4,7 +4,7 @@
     <!-- <h2>Candidato a Decano</h2> -->
     <div class="candidate">
       <div class="img-candidate">
-        <img src="./candidato1.jpeg" alt="David" />
+        <img src="./c1.jpg" alt="David" />
       </div>
       <div class="description-candidate">
         <h2 class="vote voteWidth">Para Decano marca el N°1</h2>
