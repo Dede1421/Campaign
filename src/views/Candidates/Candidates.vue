@@ -26,7 +26,7 @@
         <img src="./jorge2012.jpg" alt="Jorge" />
       </div>
       <div class="description-candidate">
-        <h2 class="vote voteWidth2">Para Asociado marca el N°2</h2>
+        <h2 class="vote voteWidth2">candidato Asociado</h2>
         <h2>Jorge Leoncio Guerra Guerra</h2>
         <p>
           Magister en ciencias en ingeniería de Sistemas y computación,
@@ -46,7 +46,7 @@
         <img src="./candidato3.jpg" alt="Jaime" />
       </div>
       <div class="description-candidate">
-        <h2 class="vote voteWidth2">Para Asociado marca el N°2</h2>
+        <h2 class="vote voteWidth2">Candidato Asociado</h2>
         <h2>Jaime Ruben Pariona Quispe</h2>
         <p>
           Magíster en Computación e Informática (c), Ingeniero de Sistemas y
