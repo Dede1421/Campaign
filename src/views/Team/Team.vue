@@ -10,7 +10,7 @@
       </article>
       <article>
         <div class="cardImage">
-          <img class="card-image" src="./Erwin.jpg" />
+          <img class="card-image" src="./Erwin1.jpeg" />
           <p>Erwin Reynoso Mac Dowall</p>
         </div>
       </article>
@@ -52,7 +52,7 @@
       </article>
       <article>
         <div class="cardImage">
-          <img class="card-image" src="./rose1.jpeg" />
+          <img class="card-image" src="./RosaS.jpg" />
           <p>Rosa Delgadillo Ávila de Mauricio</p>
         </div>
       </article>
@@ -144,7 +144,7 @@ h1 {
 }
 
 .card-image {
-  width: 140px;
+  width: 135px;
   height: 140px;
   border-radius: 50%;
 }
