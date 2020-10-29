@@ -3,20 +3,32 @@
     <div class="home">
       <div class="bg-container">
         <div class="banner">
-          <div class="content">
-            <h1>Avancemos juntos</h1>
-          </div>
-          <div>
-            <h2>Para decano vota por el N°1</h2>
-            <div class="square">
-              <div class="marca">
-                <img width="100px" src="./x-512.png" alt="" />
+          <div class="wrap-vote">
+            <div class="content">
+              <h1>Avancemos juntos</h1>
+            </div>
+            <div class="wrap" >
+              <h2>Este 09 de noviembre Vota por:</h2>
+              <div class="container-vote">
+              <div class="name-candidate">
+                <h3>Dr. David Santos Mauricio Sanchez</h3>
               </div>
-              <div class="numero">
-                <h3 class="n1">1</h3>
+              <img src="../Candidates/c1.jpg" class="candidate-decano" alt="" />
+              <div class="square">
+                <div class="marca">
+                  <img width="100px" src="./x-512.png" alt="" />
+                </div>
+                <div class="numero">
+                  <h3 class="n1">1</h3>
+                </div>
+              </div>
               </div>
             </div>
-            <!-- <h2>Para asociados vota por el N°2</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <h2>Para asociados vota por el N°2</h2>
             <div class="square">
               <div class="marca">
                 <img width="100px" src="./x-512.png" alt="" />
@@ -25,10 +37,6 @@
                 <h3 class="n1">2</h3>
               </div>
             </div> -->
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- <section class="description-media">
       <div class="video">
         <p>
@@ -79,8 +87,21 @@ export default {
   align-items: center;
 }
 
+.wrap-vote {
+  h2 {
+    color: #fff;
+  }
+}
+
+.wrap-vote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 .content {
-  width: 60%;
+  width: 30%;
   h1 {
     color: #fff;
     font-size: 3rem;
@@ -115,6 +136,7 @@ export default {
   align-items: center;
   // font-size: 50px;
   position: relative;
+  padding: 0px 10px;
 }
 
 .numero {
@@ -129,8 +151,28 @@ export default {
   }
 }
 
-h2 {
-  color: #fff;
+.container-vote {
+  display: flex;
+}
+
+.name-candidate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.candidate-decano {
+  width: 90px;
+}
+
+h3 {
+  // color: #fff;
+  font-weight: bold;
+  background: #fff;
+  // padding: 0px 10px;
 }
 
 .marca {
@@ -138,7 +180,21 @@ h2 {
   font-size: 77px;
   position: absolute;
   top: 5px;
-  color: red;
+  // color: red;
+}
+
+@media (max-width: 984px) {
+  .name-candidate {
+    font-size: 14px;
+    // padding: 10px;
+  }
+
+  .content {
+    h1 {
+      font-size: 1.6rem;
+      padding: 10px 0px;
+    }
+  }
 }
 
 @media (max-width: 770px) {
@@ -148,27 +204,31 @@ h2 {
 }
 
 @media (max-width: 750px) {
-  .content {
-    h1 {
-      font-size: 2rem;
-    }
-  }
+  // .content {
+  //   h1 {
+  //     font-size: 2rem;
+  //   }
+  // }
 
-  .square {
-    height: 70px;
-    width: 70%;
+  // .square {
+  //   // height: 70px;
+  //   width: 70%;
 
-    img {
-      width: 70px;
-    }
-  }
+  //   // img {
+  //   //   width: 70px;
+  //   // }
+  // }
 }
 
-@media (max-width: 450px) {
-  .content {
-    h1 {
-      font-size: 1.6rem;
-    }
+@media (max-width: 750px) {
+  // .content {
+  //   h1 {
+  //     font-size: 1.6rem;
+  //   }
+  // }
+
+  .wrap-vote {
+    display: block;
   }
 }
 </style>
