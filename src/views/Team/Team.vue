@@ -98,6 +98,12 @@
           <p>Percy Edwin De la Cruz</p>
         </div>
       </article>
+      <article>
+        <div class="cardImage">
+          <img class="card-image" src="../Candidates/jorge2012.jpg" />
+          <p>Jorge Leoncio Guerra Guerra</p>
+        </div>
+      </article>
     </div>
 
     <!-- <p>David Santos Mauricio Sanchez</p>

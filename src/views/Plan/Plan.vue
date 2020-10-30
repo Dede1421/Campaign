@@ -9,8 +9,7 @@
     <div class="proposals-grid">
       <div
         v-on:click="selectProposal(1)"
-        class="proposal"
-        :class="[selectedProposal === 1 ? 'bgBlue' : '']"
+        class="proposal pro1"
       >
         <ol v-if="selectedProposal === 1">
           <li>
@@ -31,7 +30,6 @@
       <div
         v-on:click="selectProposal(2)"
         class="proposal pro2"
-        :class="[selectedProposal === 2 ? 'bgWhite' : '']"
       >
         <ol v-if="selectedProposal === 2">
           <li>
@@ -53,7 +51,6 @@
       <div
         v-on:click="selectProposal(3)"
         class="proposal pro2"
-        :class="[selectedProposal === 3 ? 'bgWhite' : '']"
       >
         <ol v-if="selectedProposal === 3">
           <li>
@@ -74,8 +71,7 @@
       </div>
       <div
         v-on:click="selectProposal(4)"
-        class="proposal"
-        :class="[selectedProposal === 4 ? 'bgBlue' : '']"
+        class="proposal pro1"
       >
         <ol v-if="selectedProposal === 4">
           <li>
@@ -97,8 +93,7 @@
       </div>
       <div
         v-on:click="selectProposal(5)"
-        class="proposal"
-        :class="[selectedProposal === 5 ? 'bgBlue' : '']"
+        class="proposal pro1"
       >
         <ol v-if="selectedProposal === 5">
           <li>
@@ -122,7 +117,6 @@
       <div
         v-on:click="selectProposal(6)"
         class="proposal pro2"
-        :class="[selectedProposal === 6 ? 'bgWhite' : '']"
       >
         <ol v-if="selectedProposal === 6">
           <li>
@@ -146,7 +140,6 @@
       <div
         v-on:click="selectProposal(7)"
         class="proposal pro2"
-        :class="[selectedProposal === 7 ? 'bgWhite' : '']"
       >
         <ol v-if="selectedProposal === 7">
           <li>
@@ -168,8 +161,7 @@
       </div>
       <div
         v-on:click="selectProposal(8)"
-        class="proposal"
-        :class="[selectedProposal === 8 ? 'bgBlue' : '']"
+        class="proposal pro1"
       >
         <ol v-if="selectedProposal === 8">
           <li>
@@ -193,8 +185,7 @@
       </div>
       <div
         v-on:click="selectProposal(9)"
-        class="proposal"
-        :class="[selectedProposal === 9 ? 'bgBlue' : '']"
+        class="proposal pro1"
       >
         <ol v-if="selectedProposal === 9">
           <li>
@@ -218,7 +209,6 @@
       <div
         v-on:click="selectProposal(10)"
         class="proposal pro2"
-        :class="[selectedProposal === 10 ? 'bgWhite' : '']"
       >
         <ol v-if="selectedProposal === 10">
           <li>
@@ -306,12 +296,11 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #1a378e;
+  padding: 0px 15px;
 
   h2 {
     font-size: 2rem;
     padding: 5px 0;
-    color: #fff;
     font-weight: bold;
   }
 
@@ -323,7 +312,6 @@ export default {
     padding: 5px 0;
     font-size: 1.1rem;
     line-height: 18px;
-    color: #fff;
     font-weight: bold;
   }
 
@@ -337,26 +325,30 @@ export default {
   // }
 }
 
+.pro1 {
+  background: #1a378e;
+
+  h2 {
+    color: #fff;
+  }
+  
+  li {
+    color: #fff;
+  }
+}
+
 .pro2 {
   background-color: #fff;
 
   h2 {
     color: #1a378e;
   }
-}
-
-.bgBlue {
-  background-color: #1a378e;
-  padding: 0px 15px;
-}
-
-.bgWhite {
-  padding: 0px 15px;
-
+  
   li {
     color: #1a378e;
   }
 }
+
 
 //media queries@
 @media (max-width: 984px) {
@@ -375,6 +367,27 @@ export default {
   .container-plan {
     .proposals-grid {
       display: block;
+    }
+  }
+
+  .proposal:nth-child(odd) {
+    background: #1a378e;
+    h2 {
+      color: #fff;
+    }
+    li {
+      color: #fff;
+    }
+  }
+  .proposal:nth-child(even) {
+    background-color: #fff;
+
+    h2 {
+      color: #1a378e;
+    }
+    
+    li {
+      color: #1a378e;
     }
   }
 }
