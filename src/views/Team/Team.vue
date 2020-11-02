@@ -46,12 +46,6 @@
       </article>
       <article>
         <div class="cardImage">
-          <img class="card-image" src="./Hugo-Vega.jpg" />
-          <p>Hugo Froilan Vega Huerta</p>
-        </div>
-      </article>
-      <article>
-        <div class="cardImage">
           <img class="card-image" src="./RosaS.jpg" />
           <p>Rosa Delgadillo Ávila de Mauricio</p>
         </div>
