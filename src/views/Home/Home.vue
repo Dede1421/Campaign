@@ -7,21 +7,43 @@
             <div class="content">
               <h1>Avancemos juntos</h1>
             </div>
-            <div class="wrap" >
-              <h2>Este 09 de noviembre Vota por:</h2>
-              <div class="container-vote">
-              <div class="name-candidate">
-                <h3>Dr. David Santos Mauricio Sanchez</h3>
-              </div>
-              <img src="../Candidates/c1.jpg" class="candidate-decano" alt="" />
-              <div class="square">
+            <div>
+              <div class="wrap">
+                <h2>Este 09 de noviembre Vota por:</h2>
+                <div class="container-vote">
+                  <div class="name-candidate">
+                    <h3>Dr. David Santos Mauricio Sanchez</h3>
+                  </div>
+                  <div>
+                  <img src="../Candidates/c1.jpg" class="candidate-decano" alt=""/>
+                  <!-- <div class="square">
                 <div class="marca">
                   <img width="100px" src="./x-512.png" alt="" />
                 </div>
                 <div class="numero">
                   <h3 class="n1">1</h3>
                 </div>
+              </div> -->
+                </div>
               </div>
+              </div>
+              <div class="wrap">
+                <div class="container-vote">
+                  <div class="name-candidate">
+                    <h3>Prof. Jorge Leoncio Guerra Guerra</h3>
+                  </div>
+                  <div>
+                    <img src="../Candidates/jorge2012.jpg" class="candidate2" alt=""/>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap">
+                <div class="container-vote">
+                  <div class="name-candidate">
+                    <h3>Prof. Jaime Ruben Pariona Quispe</h3>
+                  </div>
+                  <img src="../Candidates/candidato3.jpg" class="candidate-decano" alt=""/>
+                </div>
               </div>
             </div>
           </div>
@@ -153,6 +175,7 @@ export default {
 
 .container-vote {
   display: flex;
+  padding-bottom: 20px;
 }
 
 .name-candidate {
@@ -165,6 +188,10 @@ export default {
 }
 
 .candidate-decano {
+  width: 90px;
+}
+
+.candidate2 {
   width: 90px;
 }
 
