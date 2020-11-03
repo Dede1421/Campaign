@@ -26,22 +26,22 @@
               </div> -->
               </div>
               </div>
-              <div class="wrap">
+              <!-- <div class="wrap">
                 <div class="container-vote">
                   <div class="name-candidate">
                     <h3>Prof. Jorge Leoncio Guerra Guerra</h3>
                   </div>
                     <img src="../Candidates/jorge2012.jpg" class="candidate" alt=""/>
                 </div>
-              </div>
-              <div class="wrap">
+              </div> -->
+              <!-- <div class="wrap">
                 <div class="container-vote">
                   <div class="name-candidate">
                     <h3>Prof. Jaime Ruben Pariona Quispe</h3>
                   </div>
                   <img src="../Candidates/candidato3.jpg" class="candidate" alt=""/>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -190,8 +190,8 @@ export default {
 }
 
 .candidate {
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
 }
 
 h3 {
