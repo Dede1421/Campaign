@@ -83,7 +83,7 @@ export default {
 
 @media (max-width: 750px) {
   .header {
-    padding: 20px;
+    // padding: 20px;
 
     .img-title {
       width: 60px;
