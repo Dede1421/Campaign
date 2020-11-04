@@ -4,7 +4,7 @@
       <p>&copy; Avanza Fisi 2020</p>
     </div>
     <div class="social-footer">
-      <i class="fab fa-facebook fa-2x"></i>
+      <a href="https://www.facebook.com/MauricioParaFISI" target="_blank"><i class="fab fa-facebook fa-2x"> </i></a>
     </div>
   </div>
 </template>
