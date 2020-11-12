@@ -17,7 +17,7 @@
           Investigador RENACYT - Monge II. Decano de la FISI (2006-2007),
           (Enero-Junio 2016), Director de Posgrado (2001-2003), Responsable y
           autor del proyecto de creación de la FISI.
-          <a href="" class="see">Ver mas</a>
+          <a href="https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=2286" target="_blank" class="see">Ver mas</a>
         </p>
       </div>
     </div>
@@ -26,7 +26,7 @@
         <img src="./jorge2012.jpg" alt="Jorge" />
       </div>
       <div class="description-candidate">
-        <h2 class="vote voteWidth2">candidato Asociado</h2>
+        <h2 class="vote voteWidth2">Candidato Asociado</h2>
         <h2>Jorge Leoncio Guerra Guerra</h2>
         <p>
           Magister en ciencias en ingeniería de Sistemas y computación,
@@ -37,7 +37,7 @@
           y 2018. Miembro del GI de internet de las cosas. Evaluador de
           proyectos para CONCYTEC e INNOVATE PERU. Evaluador de papers de
           journal para MDPI. Investigador RENACYT por UNMSM, Maria Rostworowski
-          II. <a href="" class="see">Ver mas</a>
+          II. <a href="https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=12581" target="_blank" class="see">Ver mas</a>
         </p>
       </div>
     </div>
@@ -119,6 +119,7 @@ h2 {
   background-color: #1a378e;
   font-weight: bold;
   font-size: 1.4rem;
+  padding-left: 10px;
   // padding: 0px 4px;
 }
 

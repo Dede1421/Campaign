@@ -4,7 +4,7 @@
       <p>&copy; Avanza Fisi 2020</p>
     </div>
     <div class="social-footer">
-      <a href="https://www.facebook.com/MauricioParaFISI" target="_blank"><i class="fab fa-facebook fa-2x"> </i></a>
+      <a href="https://www.facebook.com/MauricioParaFISI" target="_blank"><i class="fab fa-facebook fa-3x"> </i></a>
     </div>
   </div>
 </template>
@@ -28,7 +28,8 @@ export default {
   }
 
   .fab {
-    color: rgba(59, 89, 152, 1);
+    // color: rgba(59, 89, 152, 1);
+    color: #fff;
   }
 }
 </style>
